@@ -1,0 +1,21 @@
+{
+  "name": "goit-node-hw-01",
+  "version": "1.0.0",
+  "description": "First nodejs homework in goit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "yargs": "^17.7.2"
+  }
+}
