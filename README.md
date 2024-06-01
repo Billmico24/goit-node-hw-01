@@ -1,6 +1,6 @@
 # goit-node-hw-01
 
-# Get and display the entire list of contacts in the form of a table (console.table)
+# list contacts action:
 
 ![alt text](1.png)
 
