@@ -4,11 +4,11 @@
 
 ![alt text](1.png)
 
-# Get contact by id
+# Add the contact
 
 ![alt text](2.png)
 
-# Add the contact
+# Get contact by id
 
 ![alt text](3.png)
 
