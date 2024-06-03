@@ -42,8 +42,20 @@ async function getContactById(contactId) {
 async function removeContact(contactId) {
   try {
     let contacts = await listContacts();
-    contacts = contacts.filter(c => c.id !== contactId);
+    console.log('Contacts before removal:', contacts); // Debugging statement
+
+    // Convert contactId to a string for comparison
+    const contactExists = contacts.some(c => c.id === String(contactId));
+    
+    if (!contactExists) {
+      console.log(`Contact with ID ${contactId} not found.`);
+      return;
+    }
+
+    // Filter out the contact by ID
+    contacts = contacts.filter(c => c.id !== String(contactId));
     await fs.writeFile(contactsPath, JSON.stringify(contacts, null, 2));
+    console.log('Contacts after removal:', contacts); // Debugging statement
     console.log(`Contact with ID ${contactId} removed successfully.`);
   } catch (error) {
     console.error('Error removing contact:', error);
