@@ -6,11 +6,11 @@
 
 # Add the contact
 
-![alt text](2.png) 
+![alt text](2.5.png) 
 
 # Get contact by id
 
-![alt text](3.png) 
+![alt text](3.5.png) 
 
 # Delete the contact
 
