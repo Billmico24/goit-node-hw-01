@@ -1,19 +1,19 @@
 # goit-node-hw-01
 
-# list contacts action:
+## List contacts action:
 
-![alt text](1.png)
+![alt text](./images/1.png)
 
-# Add the contact
+## Add the contact
 
-![alt text](2.5.png) 
+![alt text](./images/2.5.png)
 
-# Get contact by id
+## Get contact by id
 
-![alt text](3.5.png) 
+![alt text](./images/3.5.png)
 
-# Delete the contact
+## Delete the contact
 
-![alt text](4.png)
+![alt text](./images/4.png)
 
-![alt text](5.png)
+![alt text](./images/5.png)
